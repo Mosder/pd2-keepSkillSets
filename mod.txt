@@ -1,0 +1,13 @@
+{
+	"name":"Keep Profile Skillsets",
+	"description":"Keeps assigned skillsets to profiles after infamy reset",
+	"author":"Mosder",
+	"version":"1",
+	"blt_version": 2,
+	"hooks" : [
+		{	
+			"hook_id":"lib/managers/multiprofilemanager",
+		 	"script_path":"keepSkillsets.lua"
+		}
+	]
+}
